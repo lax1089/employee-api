@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-slim
 WORKDIR /home
-COPY /target/spring-h2-demo.jar spring-h2-demo.jar
+COPY /target/employee-api.jar employee-api.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "spring-h2-demo.jar"]
+ENTRYPOINT ["java", "-jar", "employee-api.jar"]
