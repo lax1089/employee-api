@@ -53,7 +53,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<finalName>spring-h2-demo</finalName>
+					<finalName>employee-api</finalName>
 				</configuration>
 			</plugin>
 		</plugins>
