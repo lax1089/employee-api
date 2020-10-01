@@ -1,7 +1,8 @@
-package com.iamvickyav.springboot.SpringBootRestWithH2.service;
+package com.service;
 
-import com.iamvickyav.springboot.SpringBootRestWithH2.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.model.Employee;
 
 public interface EmployeeService extends JpaRepository<Employee, Integer>{
 }

@@ -1,4 +1,4 @@
-package com.iamvickyav.springboot.SpringBootRestWithH2.model;
+package com.model;
 
 import javax.persistence.Id;
 import javax.persistence.Column;
