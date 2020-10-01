@@ -1,4 +1,4 @@
-# Spring-boot-data-H2-embedded
+# Employee-API
 
 In this app, I used H2 in-memory database for demo purpose
 
