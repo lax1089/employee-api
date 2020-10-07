@@ -13,6 +13,7 @@ public class Employee {
     @Column(name = "id")
     @Id
     Integer id;
+    this will break the build!
 
     @Column(name = "name")
     String name;
