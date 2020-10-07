@@ -5,7 +5,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-// let's pretend this fixes the response bug
 @Entity
 @Table(name = "EMPLOYEE")
 public class Employee {
@@ -13,7 +12,6 @@ public class Employee {
     @Column(name = "id")
     @Id
     Integer id;
-    this will break the build!
 
     @Column(name = "name")
     String name;
