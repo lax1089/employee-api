@@ -5,6 +5,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+// let's pretend this fixes the response bug
 @Entity
 @Table(name = "EMPLOYEE")
 public class Employee {
