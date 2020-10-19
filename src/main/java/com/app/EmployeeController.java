@@ -50,6 +50,8 @@ public class EmployeeController {
         return status;
     }
 
+    // Select, Insert, Delete for List of Employees
+    
     @RequestMapping(value = "/employees", method = RequestMethod.GET)
     List<Employee> getAllEmployee(){
         return employeeService.findAll();
