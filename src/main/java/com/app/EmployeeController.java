@@ -15,8 +15,8 @@ import java.util.Optional;
 public class EmployeeController {
 
     @Autowired
-    private EmployeeService employeeService;
-
+    private EmployeeService employeeService; 
+    
     // Select, Insert, Delete, Update Operations for an Employee
 
     @RequestMapping(value = "/employee/{id}", method = RequestMethod.GET)
@@ -49,8 +49,6 @@ public class EmployeeController {
         }
         return status;
     }
-
-    // Select, Insert, Delete for List of Employees
 
     @RequestMapping(value = "/employees", method = RequestMethod.GET)
     List<Employee> getAllEmployee(){
