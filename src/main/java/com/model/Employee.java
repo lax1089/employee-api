@@ -9,6 +9,7 @@ import javax.persistence.Table;
 @Table(name = "EMPLOYEE")
 public class Employee {
 
+    // This is the user's ID which uniquely identifies them
     @Column(name = "id")
     @Id
     Integer id;
