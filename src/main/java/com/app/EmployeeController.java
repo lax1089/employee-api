@@ -27,7 +27,7 @@ public class EmployeeController {
     @RequestMapping(value = "/employee", method = RequestMethod.POST)
     String addEmployee(@RequestBody Employee employee){
         Employee savedEmployee = employeeService.save(employee);
-        return "SUCCESS";
+        return "CREATED";
     }
 
     @RequestMapping(value = "/employee", method = RequestMethod.PUT)
